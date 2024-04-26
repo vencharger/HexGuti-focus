@@ -1,0 +1,12 @@
+{  
+    "models": [
+	    {
+		    "part": "lid",
+			"model": "healthbar_N.jpm",
+			"translate": [0, -9, 0],
+			"rotate": [0, 180, 0],
+            "attach": "true"
+			
+		}
+	]
+}

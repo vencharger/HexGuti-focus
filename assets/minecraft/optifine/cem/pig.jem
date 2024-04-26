@@ -1,0 +1,18 @@
+{  
+    "models": [
+	    {
+		    "part": "body",
+			"id": "healthbar",
+			"model": "healthbar_N.jpm",
+			"translate": [0, -10, -4],
+			"rotate": [-90, 0, 0],
+            "attach": "true",
+			"animations": [
+	            {
+		           "healthbar.ty": "-10 + if(is_ridden,8,0)",
+				   "healthbar.tz": "-4 + if(is_ridden,18,0) + if(is_child,8,0)"
+		        }  
+		    ]
+		}
+	]
+}

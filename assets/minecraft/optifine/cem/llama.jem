@@ -1,0 +1,17 @@
+{  
+    "models": [
+	    {
+		    "part": "head",
+			"id": "healthbar",
+			"model": "healthbar_N.jpm",
+			"translate": [0, -11.5, -2],
+            "attach": "true",
+			"animations": [
+	            {
+		           "healthbar.ty": "-11.5 + if(is_ridden,-6,0)",
+				   "healthbar.tz": "-2 + if(is_ridden,6,0)"
+		        }  
+		    ]
+		}
+	]
+}

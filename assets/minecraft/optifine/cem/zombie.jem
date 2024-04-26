@@ -1,0 +1,10 @@
+{  
+    "models": [
+	    {
+		    "part": "head",
+			"model": "healthbar_N.jpm",
+			"translate": [0, 0, -1],
+            "attach": "true"
+		}	
+    ]		
+}

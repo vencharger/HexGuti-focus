@@ -1,0 +1,19 @@
+{  
+    "models": [
+	    {
+		    "part": "body",
+			"id": "healthbar",
+			"model": "healthbar_N.jpm",
+			"translate": [0, 0, -12],
+            "attach": "true",
+			"animations": [
+	            {
+		           "healthbar.ty": "0 + if(is_child,-5.5,0)",
+				   "healthbar.sx": "if(is_child,1.5,1)",
+				   "healthbar.sy": "if(is_child,1.5,1)",
+				   "healthbar.sz": "if(is_child,1.5,1)"
+		        }  
+		    ]
+		}
+	]
+}

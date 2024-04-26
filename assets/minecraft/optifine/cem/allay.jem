@@ -1,0 +1,16 @@
+{  
+    "models": [
+	    {
+		    "part": "head",
+			"id": "healthbar",
+			"model": "healthbar_N.jpm",
+			"translate": [0, 4, -1],
+            "attach": "true",
+			"animations": [
+	            {
+		           "healthbar.ry": "player_rot_y - rot_y - head.ry"
+		        }  
+		    ]	
+        }		
+    ]		
+}
